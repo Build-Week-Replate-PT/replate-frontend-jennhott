@@ -2,23 +2,23 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+//import components
+import Links from './Components/Links';
+import BusinessForm from './Components/BusinessForm';
+import NonProfitForm from './Components/NonProfitForm';
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <Links />
+      </div>
+      <div>
+        <BusinessForm />
+      </div>
+      <div>
+        <NonProfitForm />
+      </div>
     </div>
   );
 }
