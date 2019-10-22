@@ -4,8 +4,9 @@ import './App.css';
 
 //import components
 import Links from './Components/Links';
-import BusinessForm from './Components/BusinessForm';
-import NonProfitForm from './Components/NonProfitForm';
+import LoginPage from './Components/LoginPage';
+import SignupPage from './Components/SignupPage';
+
 
 function App() {
   return (
@@ -14,11 +15,12 @@ function App() {
         <Links />
       </div>
       <div>
-        <BusinessForm />
+        <LoginPage />
       </div>
-      <div>
-        <NonProfitForm />
-      </div>
+    <div>
+      <SignupPage />
+    </div>
+      
     </div>
   );
 }

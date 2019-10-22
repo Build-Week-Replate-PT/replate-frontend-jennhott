@@ -2,6 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { withFormik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 
+// https://bw-replate.herokuapp.com/api/auth/business/login
+// {
+//     username: "businessUsername",
+//     password: "pass"
+// }
+
 const BusinessForm = (errors, touched, values, status) => {
     const [login,setLogin] = useState([]);
 
